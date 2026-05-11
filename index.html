@@ -1,83 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kamp Agency | Transformando projetos em realidade</title>
-    <link rel="shortcut icon" href="assets/images/lgkpkp.svg" type="image/x-icon">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="src/assets/favicon/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/script.js"></script>
 </head>
+
 <body>
-    
-    <div class="navb">
-        <svg class="logokamp" width="40" height="40" viewBox="0 0 140 246" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <mask id="mask0_225_25" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="140" height="246">
-        <rect width="140" height="246" fill="url(#pattern0_225_25)"/>
-        </mask>
-        <g mask="url(#mask0_225_25)">
-        <rect x="-118" y="-50" width="382" height="340" fill="#FFF"/>
-        </g>
-        <defs>
-        <pattern id="pattern0_225_25" patternContentUnits="objectBoundingBox" width="1" height="1">
-        <use xlink:href="#image0_225_25" transform="matrix(0.0122631 0 0 0.00697901 -1.87857 -0.878049)"/>
-        </pattern>
-        <image id="image0_225_25" width="392" height="392" preserveAspectRatio="none" xlink:href="data:image/png;base64,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iiVAgEB+AgIiP2stESBAICoBARHVcCmWAAEC+QkIiPystUSAAIGoBAREVMOlWAIECOQnkEZAzM7Ojt9+++235le1lggQIEAgc4E0AuLEiRPjmReqAQIECBDIVyCNgJiamprKt2qtESBAgEDmAgIic2INECBAIE4BARHnuKmaAAECmQsIiMyJNUCAAIE4BR555JHP/vbKz2OPPfZ7R44c+dNr/anVan+yf//+37163sMPP/zLcfZe1QQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgRKLPB/c9/GaEMbuj8AAAAASUVORK5CYII="/>
-        </defs>
-        </svg>
+
+    <header>
+        <a href="index.html">
+            <img src="src/assets/favicon/logo.svg" alt="Logo da Kamp Agency" class="logo" draggable="false">
+        </a>
         <nav class="navbar">
-            <a href="#">SERVIÇOS</a>
-            <a href="#">CONTATO</a>
-            <a href="#">SOBRE NÓS</a>
-            <a href="#">SUPORTE</a>
-
-            <div class="midiasocials">
-            <a href="https://www.instagram.com/kampagency/" target="_blank"><img class="social" draggable="false" src="assets/images/github.png" alt="github"></a>
-            <a href="https://www.linkedin.com/company/kamp-agency/" target="_blank"><img class="social" draggable="false" src="assets/images/twitter.png" alt="X"></a>
-            <a href="https://www.facebook.com/KampAgency" target="_blank"><img class="social" draggable="false" src="assets/images/instagram.png" alt="instagram"></a>
-        </div>
+            <a href="#services">SERVIÇOS</a>
+            <a href="#contact">CONTATO</a>
+            <a href="#about">SOBRE NÓS</a>
+            <a href="#support">SUPORTE</a>
         </nav>
-    </div>
+        <nav class="midiasocials">
+            <a href="https://www.instagram.com/kampagency/" target="_blank"><img class="social icon" draggable="false"
+                    src="src/assets/icons/github.svg" alt="github"></a>
+            <a href="https://www.linkedin.com/company/kamp-agency/" target="_blank"><img class="social icon"
+                    draggable="false" src="src/assets/icons/twitter.svg" alt="X"></a>
+            <a href="https://www.facebook.com/KampAgency" target="_blank"><img class="social icon" draggable="false"
+                    src="src/assets/icons/instagram.svg" alt="instagram"></a>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="textini">
+                <h2 class="pricipaltx">Faça seu projeto <br><span class="color">tornar realidade.</span></h2>
+                <p class="subtext">Kamp Agency trabalhando nas àreas digitais sendo elas Programação Web, Programação em
+                    Scripts, AudioVisual e Design Visual.</p>
+                <div class="contact">
+                    <a href="https://www.instagram.com/kampagency/" class="contactbtn" target="_blank">Contate-nos</a>
+                </div>
 
-    <div class="apresentation">
-
-        <div class="textini">
-        <h2 class="pricipaltx">Faça seu projeto <br><span class="color">tornar realidade.</span></h2>
-        <p class="subtext">Kamp Agency trabalhando nas àreas digitais sendo elas Programação Web, Programação em Scripts, AudioVisual e Design Visual.</p>
-        <div class="contact">
-            <a href="https://www.instagram.com/kampagency/" class="contactbtn" target="_blank">Contate-nos</a>
-        </div>
-
-        </div>
-
-        <div class="ourpartners">
-
-            <div class="partntxt">
-                <p class="prtn">Nossos clientes</p>
             </div>
-            <div class="partnerscompany">
-                <img class="prt" draggable="false" src="assets/images/prognosis.png" alt="partnergame">
-                <a href="https://ssa-rp.com/" target="_blank"><img class="prt" draggable="false" src="assets/images/ssarp.png" alt="partnergame"></a>
-                <img class="prt" draggable="false" src="assets/images/class.png" alt="partnercompany">
-                <a href="https://informanutencoes.com.br/" target="_blank"><img class="prt" draggable="false" src="assets/images/infor.png" alt="partnercompany"></a>
-                <img class="prt" draggable="false" src="assets/images/sw.png" alt="partnercompany">
-                <a href="https://www.workbestgames.com/" target="_blank"><img class="prt" draggable="false" src="assets/images/wbgnm.png" alt="partnercompany"></a>
+
+            <div class="ourpartners">
+
+                <div class="partntxt">
+                    <p class="prtn">Nossos clientes</p>
+                </div>
+                <div class="partnerscompany">
+                    <img class="prt" draggable="false" src="src/assets/img/prognosis.svg" alt="partnergame">
+                    <a href="https://ssa-rp.com/" target="_blank"><img class="prt" draggable="false"
+                            src="src/assets/img/ssarp.svg" alt="partnergame"></a>
+                    <img class="prt" draggable="false" src="src/assets/img/class.svg" alt="partnercompany">
+                    <a href="https://informanutencoes.com.br/" target="_blank"><img class="prt" draggable="false"
+                            src="src/assets/img/infor.svg" alt="partnercompany"></a>
+                    <img class="prt" draggable="false" src="src/assets/img/sw.svg" alt="partnercompany">
+                    <a href="https://www.workbestgames.com/" target="_blank"><img class="prt" draggable="false"
+                            src="src/assets/img/wbgnm.svg" alt="partnercompany"></a>
+                </div>
             </div>
-        </div>
+        </section>
+        <section id="services">
 
-    </div>
-
-
-    <div class="services">
-
-        <div class="title">
-        <h3 class="titleproduct">Produtos e serviços <span class="color">de linha global</span></h3>
-        <p class="subtextserv">Nossa agencia é especializada em suas respectivas áreas tornando nosso time mais completo e capacitado para avaliação e criação até seu objetivo principal: <span class="colorw">sua satisfação com o produto</span>.</p>
-        </div>
-
-
-
-
-    </div>
+            <div class="title">
+                <h3 class="titleproduct">Produtos e serviços <span class="color">de linha global</span></h3>
+                <p class="subtextserv">Nossa agencia é especializada em suas respectivas áreas tornando nosso time mais
+                    completo e capacitado para avaliação e criação até seu objetivo principal: <span class="colorw">sua
+                        satisfação com o produto</span>.</p>
+            </div>
+        </section>
+        <section id="contact"></section>
+        <section id="about"></section>
+        <section id="support"></section>
+    </main>
+    <footer>
+        <section class="to-top">
+            <button id="to-top"><img src="src/assets/icons/arrow_drop.svg" alt="To Top" onclick="toTop()">
+            </button>
+        </section>
+    </footer>
 
 </body>
+
 </html>
