@@ -372,7 +372,7 @@ section.to-top button:hover {
 
 .cards {
   display: flex;
-  width: 70%;
+  width: 90%;
   justify-content: center;
   align-items: center;
   text-align: left;
