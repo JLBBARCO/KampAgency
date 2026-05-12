@@ -190,7 +190,8 @@ a:hover {
   font-size: 2.5rem;
 }
 
-.subtext {
+.subtext,
+.subtextserv {
   width: 40%;
   font-size: 1rem;
   color: var(--text-sec);
@@ -218,10 +219,12 @@ a:hover {
   text-decoration: underline;
 }
 
-.subtextserv {
-  width: 40%;
-  font-size: 1rem;
-  color: var(--text-sec);
+.colorwi {
+  color: var(--color-white);
+}
+
+u:hover {
+  color: var(--color-tx);
 }
 
 section.to-top {
@@ -435,6 +438,7 @@ section.to-top button:hover {
   display: flex;
   gap: 1rem;
   flex-direction: column;
+  flex-flow: wrap;
   margin-top: 3%;
   background-color: var(--second-background);
   padding: 22px;
@@ -443,13 +447,13 @@ section.to-top button:hover {
   color: var(--first-text);
   width: 30%;
   height: 260px;
-}
 
-.contentsproj:hover {
-  background-color: #7d092c18;
-  border: 1px solid var(--color-tx);
-  transform: scale(1.01);
-  transition: all 0.6s ease;
+  &:hover {
+    background-color: #7d092c18;
+    border: 1px solid var(--color-tx);
+    transform: scale(1.01);
+    transition: all 0.6s ease;
+  }
 }
 
 .contentsproj:hover .icontents {
@@ -478,6 +482,18 @@ section.to-top button:hover {
 
 .btnproj {
   text-decoration: underline;
+  border: 1px solid var(--color-tx);
+  align-self: flex-start;
+  text-align: center;
+  border-radius: 16px;
+  padding: 0.3rem;
+  width: 100px;
+
+  &:hover {
+    background-color: var(--color-tx);
+    color: var(--color-white);
+    border: 1px solid var(--color-tx);
+  }
 }
 
 .descriptionproj p {
@@ -494,7 +510,145 @@ section.to-top button:hover {
   background-color: #292929;
 }
 
+#contact {
+  height: 150dvh;
+}
+
+.titlecontact {
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  text-align: center;
+  align-items: center;
+  height: 25%;
+}
+
+.subform {
+  display: flex;
+  flex-flow: wrap;
+  color: var(--text-sec);
+  font-size: 0.9rem;
+  max-width: 60%;
+}
+
+.contactform {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+input {
+  background-color: var(--second-background);
+  border: 1px solid var(--text-sec);
+  color: var(--first-text);
+  padding: 0.5rem;
+  display: block;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.submitbtn {
+  color: var(--color-white);
+  background-color: var(--color-tx);
+  border: 1px solid var(--color-white);
+  padding: 0.5rem 1rem;
+  border-radius: 16px;
+  width: 100px;
+  align-self: flex-start;
+
+  &:hover {
+    border: 1px solid var(--second-color);
+    background: var(--color-white);
+    color: var(--color-tx);
+  }
+}
+
+textarea {
+  background-color: var(--second-background);
+  border: 1px solid var(--text-sec);
+  color: var(--first-text);
+  padding: 0.5rem;
+  display: block;
+  block-size: 200px;
+  width: 500px;
+  border-radius: 10px;
+}
+
 .foot {
   background-color: var(--second-background);
-  height: 40dvh;
+  height: 60dvh;
+}
+
+.logoandname {
+  display: flex;
+  max-width: 70%;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.3rem;
+  padding: 4rem;
+  margin-top: 5%;
+}
+
+.titlefoot {
+  font-size: 1.5rem;
+  font-weight: 550;
+}
+
+.subfoot {
+  color: var(--text-sec);
+  font-weight: 200;
+  font-size: 1rem;
+  max-width: 80%;
+}
+
+.logofoot {
+  height: 80px;
+}
+
+.containergenerlinkandname {
+  height: 85%;
+  display: flex;
+  flex-direction: space-between;
+  align-items: center;
+}
+
+.footercontent {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.allinks {
+  display: flex;
+  gap: 4rem;
+  flex-direction: row;
+}
+
+.linha {
+  border-bottom: 1px dashed var(--text-sec);
+  display: flex;
+  align-items: center;
+  margin: 1rem auto;
+  width: 70%;
+}
+
+.copyright {
+  text-align: center;
+  color: var(--text-sec);
+  font-size: 0.9rem;
 }

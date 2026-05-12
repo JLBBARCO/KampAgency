@@ -10,6 +10,10 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="src/css/style.css" />
+    <meta
+      name="description"
+      content="Kamp Agency é uma empresa especializada em transformar ideias e projetos Digitais em realidade, desde a concepção até a implementação."
+    />
     <script src="src/js/script.js"></script>
   </head>
 
@@ -28,7 +32,6 @@
         <a href="#about">SOBRE NÓS</a>
         <a href="#projects">PROJECTS</a>
         <a href="#contact">CONTATO</a>
-        <a href="#support">SUPORTE</a>
       </nav>
       <nav class="midiasocials">
         <a href="https://github.com/kampagency" target="_blank"
@@ -272,7 +275,7 @@
           </p>
         </div>
 
-        <article class="cards">
+        <article id="collab" class="cards">
           <div class="cardperson">
             <img
               class="collaborators"
@@ -428,7 +431,7 @@
               <h3>Project Branding</h3>
               <p>
                 Realizamos o escopo do projeto e desenvolvimento base, como
-                Identidade visual, Website do projeto do StreetWise Roleplay.
+                Identidade visual, Website para o projeto StreetWise Roleplay.
               </p>
               <a
                 class="btnproj"
@@ -491,8 +494,34 @@
         </div>
       </section>
 
-      <section id="contact"></section>
-      <section id="support"></section>
+      <section id="contact">
+        <div class="titlecontact">
+          <h3>Entre em <span class="color">contato</span> conosco</h3>
+          <p class="subform">
+            Entre em contato conosco e fazemos de seu projeto realidade, se
+            deseja solicitar um orçamento ou obter mais informações sobre nossos
+            serviços. Estamos ansiosos para ajudar a transformar suas ideias em
+            realidade.
+          </p>
+        </div>
+        <div class="contactform">
+          <form action="https://web3forms.com" method="post" class="form">
+            <input
+              type="hidden"
+              name="access_key"
+              value="b59866d6-93f5-421d-819b-d4b7e5f18597"
+            />
+            <input type="text" name="yn" placeholder="Seu nome" required />
+            <input type="email" name="yem" placeholder="Seu email" required />
+            <textarea
+              name="message"
+              placeholder="Sua mensagem"
+              required
+            ></textarea>
+            <button type="submit" class="submitbtn">Enviar</button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <footer>
@@ -508,9 +537,51 @@
     </footer>
 
     <footer class="foot">
-      <section class="copyright">
+      <container class="containergenerlinkandname">
+        <container class="footercontent">
+          <div class="logoandname">
+            <img
+              class="logofoot"
+              src="src/assets/img/kamp.svg"
+              alt="Logo da Kamp Agency"
+              draggable="false"
+            />
+            <div class="namedesc">
+              <h2 class="namefoot">Kamp Agency</h2>
+              <p class="subfoot">
+                Transformando projetos em realidade, desde a concepção até a
+                implementação.
+              </p>
+            </div>
+          </div>
+        </container>
+
+        <container class="allinks">
+          <container class="links">
+            <h3 class="navs">NAVEGAÇÃO</h3>
+            <a href="#services">Serviços</a>
+            <a href="#about">Sobre nós</a>
+            <a href="#collab">Nossa equipe</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+          </container>
+          <container class="links">
+            <h3 class="navs">MIDIAS SOCIAIS</h3>
+            <a href="https://github.com/kampagency">GitHub</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <p class="colorwi">Nosso Email</p>
+            <a href="mailto:agencykamp@gmail.com"
+              ><u> agencykamp@gmail.com </u></a
+            >
+          </container>
+        </container>
+      </container>
+
+      <container class="copyright">
+        <div class="linha"></div>
         <p>&copy; 2025 Kamp Agency. Todos os direitos reservados.</p>
-      </section>
+      </container>
     </footer>
   </body>
 </html>
