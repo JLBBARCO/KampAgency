@@ -25,6 +25,7 @@ html {
 
 body {
   scroll-margin-top: var(--header-height);
+  overflow-x: hidden;
 }
 
 ::selection {
@@ -40,10 +41,6 @@ body {
 
 svg {
   color: white;
-}
-
-.social {
-  height: 25px;
 }
 
 header {
@@ -80,12 +77,13 @@ main {
   background: var(--background);
 }
 
-main > section {
+main>section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   min-height: 75dvh;
+  padding: 3rem;
 }
 
 a {
@@ -108,6 +106,7 @@ a:hover {
 
 .partnerscompany {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   gap: 1rem;
@@ -127,8 +126,13 @@ a:hover {
   flex-direction: column;
 }
 
+.title {
+  padding: 1rem;
+  width: auto;
+  max-width: 80%;
+}
+
 .prt {
-  height: 70px;
   filter: brightness(30%);
 }
 
@@ -142,7 +146,6 @@ a:hover {
 }
 
 .apresentation {
-  height: 100dvh;
   justify-content: center;
   align-content: center;
   display: flex;
@@ -192,27 +195,21 @@ a:hover {
 
 .subtext,
 .subtextserv {
-  width: 40%;
   font-size: 1rem;
   color: var(--text-sec);
+  text-align: justify;
 }
 
 #services {
-  height: 150dvh;
   justify-content: center;
   align-content: center;
   display: flex;
   flex-direction: column;
 }
 
-.title {
-  height: 120px;
-}
-
 .titleproduct {
-  margin-top: -13%;
-  width: 40%;
-  font-size: 3rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .colorw {
@@ -252,24 +249,24 @@ section.to-top button:hover {
 
 .contente {
   display: flex;
-  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
   align-items: center;
-  gap: 0.1rem;
-  flex-direction: row;
+  gap: 0.5rem;
+  flex-flow: row wrap;
 }
 
 .contents {
   display: flex;
   gap: 1rem;
   flex-direction: column;
-  margin-left: 3%;
   background-color: var(--second-background);
   padding: 32px;
   border-radius: 25px;
   border: 1px solid #c0c0c02d;
   color: var(--first-text);
   width: 20%;
-  height: 320px;
+  height: 100%;
 }
 
 .contents:hover {
@@ -282,8 +279,7 @@ section.to-top button:hover {
 .contents:hover .icontent {
   background-color: #7d092c33;
   transform: scale(1.01);
-  filter: invert(16%) sepia(89%) saturate(6054%) hue-rotate(338deg)
-    brightness(89%) contrast(92%);
+  filter: invert(16%) sepia(89%) saturate(6054%) hue-rotate(338deg) brightness(89%) contrast(92%);
 }
 
 .contents:hover .description {
@@ -316,19 +312,18 @@ section.to-top button:hover {
   background-color: #292929;
 }
 
-#develop {
-  height: 100dvh;
-}
-
 .titledev {
-  margin-left: 7%;
-  height: 25%;
+  padding: 1rem;
+  width: auto;
+  max-width: 80%;
 }
 
 .contentedev {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
-  flex-direction: row;
   -webkit-user-select: none;
   user-select: none;
 }
@@ -356,15 +351,12 @@ section.to-top button:hover {
   font-weight: 300;
 }
 
-#about {
-  height: 160dvh;
-}
-
 .titleabout {
   font-size: 3rem;
   font-weight: 550;
   text-align: center;
-  height: 25%;
+  width: auto;
+  max-width: 80%;
 }
 
 .subtx {
@@ -375,15 +367,21 @@ section.to-top button:hover {
 
 .cards {
   display: flex;
-  width: 90%;
-  justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
+  width: auto;
+  justify-content: space-between;
+  gap: 1rem;
   text-align: left;
+  margin: 1rem 0;
 }
 
 .cardperson {
-  width: 90%;
-  max-height: 90%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  width: 20%;
 }
 
 .cardperson:hover {
@@ -411,8 +409,7 @@ section.to-top button:hover {
 }
 
 .collaborators {
-  width: 300px;
-  height: 400px;
+  width: 100%;
   object-fit: cover;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -422,16 +419,11 @@ section.to-top button:hover {
   user-select: none;
 }
 
-#projects {
-  height: 150dvh;
-}
-
 .contentet {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   gap: 1rem;
-  flex-direction: row;
+  flex-flow: row wrap;
 }
 
 .contentsproj {
@@ -446,7 +438,7 @@ section.to-top button:hover {
   border: 1px solid #c0c0c02d;
   color: var(--first-text);
   width: 30%;
-  height: 260px;
+  height: auto;
 
   &:hover {
     background-color: #7d092c18;
@@ -459,8 +451,7 @@ section.to-top button:hover {
 .contentsproj:hover .icontents {
   background-color: #7d092c33;
   transform: scale(1.01);
-  filter: invert(16%) sepia(89%) saturate(6054%) hue-rotate(338deg)
-    brightness(89%) contrast(92%);
+  filter: invert(16%) sepia(89%) saturate(6054%) hue-rotate(338deg) brightness(89%) contrast(92%);
 }
 
 .contentsproj:hover .description {
@@ -503,7 +494,7 @@ section.to-top button:hover {
 }
 
 .icontents {
-  width: 50px;
+  width: auto;
   height: 50px;
   padding: 0.6rem;
   border-radius: 15%;
@@ -520,15 +511,17 @@ section.to-top button:hover {
   font-size: 3rem;
   text-align: center;
   align-items: center;
-  height: 25%;
+  width: auto;
+  max-width: 80%;
+  margin: 1rem;
 }
 
 .subform {
   display: flex;
   flex-flow: wrap;
   color: var(--text-sec);
-  font-size: 0.9rem;
-  max-width: 60%;
+  font-size: 1rem;
+  text-align: justify;
 }
 
 .contactform {
@@ -536,6 +529,7 @@ section.to-top button:hover {
   justify-content: center;
   gap: 1rem;
   flex-direction: column;
+  width: 100%;
 }
 
 form {
@@ -543,6 +537,7 @@ form {
   justify-content: center;
   gap: 1rem;
   flex-direction: column;
+  width: auto;
 }
 
 input {
@@ -551,7 +546,7 @@ input {
   color: var(--first-text);
   padding: 0.5rem;
   display: block;
-  width: 500px;
+  width: auto;
   border-radius: 10px;
 }
 
@@ -578,13 +573,26 @@ textarea {
   padding: 0.5rem;
   display: block;
   block-size: 200px;
-  width: 500px;
+  width: auto;
   border-radius: 10px;
 }
 
-.foot {
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
   background-color: var(--second-background);
-  height: 60dvh;
+}
+
+footer>section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  width: 100%;
 }
 
 .logoandname {
@@ -610,14 +618,17 @@ textarea {
 }
 
 .logofoot {
-  height: 80px;
+  width: 80px;
+  height: auto;
 }
 
 .containergenerlinkandname {
   height: 85%;
   display: flex;
-  flex-direction: space-between;
+  flex-flow: row wrap;
+  justify-content: space-between;
   align-items: center;
+  gap: 1rem;
 }
 
 .footercontent {
@@ -651,4 +662,25 @@ textarea {
   text-align: center;
   color: var(--text-sec);
   font-size: 0.9rem;
+}
+
+@media screen and (max-width: 990px) {
+  header {
+    gap: 0.5rem;
+    height: auto;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .contents {
+    width: 100%;
+  }
+
+  .cardperson {
+    width: 100%;
+  }
+
+  .contentsproj {
+    width: 100%;
+  }
 }
