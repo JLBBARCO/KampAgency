@@ -1,6 +1,6 @@
 # Agência de Design e Programação Personalizada
 
-Bem-vindo à nossa agência! Somos especializados em **design criativo**, **desenvolvimento web personalizado** e **soluções de programação sob medida**. Trabalhamos com empresas de todos os tamanhos, criando experiências digitais que são tanto funcionais quanto visualmente atraentes.
+Bem-vindo à nossa agência! Somos especializados em **design criativo**, **desenvolvimento web personalizado** e **edição de vídeos**, **ilustração e animação 2D**. Trabalhamos com empresas de todos os tamanhos, criando experiências digitais que são tanto funcionais quanto visualmente atraentes.
 
 ## Sobre nós
 
@@ -22,6 +22,14 @@ Nossa equipe é composta por 1 designer, 3 desenvolvedores e estrategistas apaix
   - Integração de ferramentas e plataformas
   - Automação de processos empresariais
 
+- **Edição de Videos**
+  - MMV
+  - AMV
+  - Edições diversas
+ 
+- **Ilustração e Animação 2D**
+  - Exceções de trabalhos aceitos: NFSW 
+
 ## Tecnologias
 
 Trabalhamos com as tecnologias mais recentes para oferecer a melhor experiência aos nossos clientes. Algumas das tecnologias que usamos incluem:
@@ -33,13 +41,13 @@ Trabalhamos com as tecnologias mais recentes para oferecer a melhor experiência
 
 - **Outras ferramentas:**
   - Git, GitHub
-  - Figma, Sketch, Adobe XD
+  - Figma, Sketch, Adobe XD, Krita, Ibis Paint
 
-## Como trabalhar conosco?
+## Como contatar-nos conosco?
 
 Se você está interessado em nosso trabalho, siga estas etapas:
 
-1. **Entre em contato** - Envie um e-mail para [contactkamp@gmail.com](mailto:contactkamp@gmail.com) ou abra uma **issue** aqui no GitHub.
+1. **Entre em contato** - Envie um e-mail para [agencykamp@gmail.com](mailto:agencykamp@gmail.com) ou abra uma **issue** aqui no GitHub.
 2. **Planejamento** - Vamos entender suas necessidades e objetivos para começar o planejamento do projeto.
 3. **Execução** - Nossa equipe vai trabalhar em conjunto com você para garantir que o projeto atenda às suas expectativas.
 4. **Entrega** - Após a finalização, entregaremos o projeto e estaremos disponíveis para suporte contínuo.
@@ -54,9 +62,9 @@ Aqui estão alguns projetos que desenvolvemos para nossos clientes:
 
 ## Equipe de Projetos
 
-- [Gabriel Víctor](https://github.com/coffeejpeg) - Desenvolvedor Front-End & Designer Gráfico, UI&UX, Social Mídia
+- [Gabriel Carvalho](https://github.com/coffeejpeg) - Desenvolvedor Front-End & Designer Gráfico, Project Maneger
 - [Arthur Nunes](https://github.com/NunesArthu) - Desenvolvedor Front-End
-- [Alexandre Mol](#) - Desenvolvedor Front-End
+- [José Barco](https://github.com/JLBBARCO) - Desenvolvedor Fullstack
 
 ## Como Contribuir
 
