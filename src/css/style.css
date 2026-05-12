@@ -302,7 +302,7 @@ section.to-top button:hover {
 .description p {
   color: var(--first-text);
   font-size: 0.9rem;
-  width: 70%;
+  max-width: 80%;
 }
 
 .icontent {
@@ -319,7 +319,7 @@ section.to-top button:hover {
 
 .titledev {
   margin-left: 7%;
-  height: 10%;
+  height: 25%;
 }
 
 .contentedev {
@@ -354,7 +354,7 @@ section.to-top button:hover {
 }
 
 #about {
-  height: 130dvh;
+  height: 160dvh;
 }
 
 .titleabout {
@@ -417,6 +417,81 @@ section.to-top button:hover {
   border: 1px solid var(--text-sec);
   -webkit-user-select: none;
   user-select: none;
+}
+
+#projects {
+  height: 150dvh;
+}
+
+.contentet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+}
+
+.contentsproj {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  margin-top: 3%;
+  background-color: var(--second-background);
+  padding: 22px;
+  border-radius: 25px;
+  border: 1px solid #c0c0c02d;
+  color: var(--first-text);
+  width: 30%;
+  height: 260px;
+}
+
+.contentsproj:hover {
+  background-color: #7d092c18;
+  border: 1px solid var(--color-tx);
+  transform: scale(1.01);
+  transition: all 0.6s ease;
+}
+
+.contentsproj:hover .icontents {
+  background-color: #7d092c33;
+  transform: scale(1.01);
+  filter: invert(16%) sepia(89%) saturate(6054%) hue-rotate(338deg)
+    brightness(89%) contrast(92%);
+}
+
+.contentsproj:hover .description {
+  color: var(--text-sec);
+  transform: scale(1.01);
+}
+
+.contentsproj:hover h3 {
+  color: var(--color-tx);
+  transform: scale(1.01);
+}
+
+.descriptionproj {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: left;
+}
+
+.btnproj {
+  text-decoration: underline;
+}
+
+.descriptionproj p {
+  color: var(--first-text);
+  font-size: 0.9rem;
+  max-width: 80%;
+}
+
+.icontents {
+  width: 50px;
+  height: 50px;
+  padding: 0.6rem;
+  border-radius: 15%;
+  background-color: #292929;
 }
 
 .foot {
