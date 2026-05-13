@@ -7,11 +7,11 @@ Bem-vindo à nossa agência! Somos especializados em **design criativo**, **dese
 Nossa equipe é composta por 1 designer, 3 desenvolvedores e estrategistas apaixonados por transformar ideias em soluções inovadoras. Oferecemos um atendimento personalizado para cada cliente, garantindo que cada projeto seja único e atenda às necessidades específicas do seu negócio.
 
 **Serviços oferecidos:**
+
 - **Design Gráfico e Branding**
   - Criação de identidade visual
   - Design de sites e interfaces (UI/UX)
   - Design de materiais promocionais (cartões de visita, banners, etc.)
-  
 - **Desenvolvimento Web**
   - Websites responsivos e dinâmicos
   - Lojas virtuais e plataformas de e-commerce
@@ -26,9 +26,9 @@ Nossa equipe é composta por 1 designer, 3 desenvolvedores e estrategistas apaix
   - MMV
   - AMV
   - Edições diversas
- 
+
 - **Ilustração e Animação 2D**
-  - Exceções de trabalhos aceitos: NFSW 
+  - Exceções de trabalhos aceitos: NFSW
 
 ## Tecnologias
 
@@ -63,11 +63,8 @@ Aqui estão alguns projetos que desenvolvemos para nossos clientes:
 ## Equipe de Projetos
 
 - @coffeejpeg - Desenvolvedor Front-End & Designer Gráfico, Project Manager
-- @NunesArthu - Desenvolvedor Front-End
+- @NunesArthur - Desenvolvedor Front-End
 - @JLBBARCO - Desenvolvedor Fullstack
-- [Gabriel Carvalho](https://github.com/coffeejpeg) - Desenvolvedor Front-End & Designer Gráfico, Project Maneger
-- [Arthur Nunes](https://github.com/NunesArthu) - Desenvolvedor Front-End
-- [José Barco](https://github.com/JLBBARCO) - Desenvolvedor Fullstack
 
 ## Como Contribuir
 
@@ -81,7 +78,6 @@ Este repositório está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](
 
 **Agência de Design e Programação Personalizada**  
 Transformando suas ideias em soluções digitais únicas.
-
 
 <!--- - 👋 Hi, I’m @kampagency
 - 👀 I’m interested in ...
