@@ -62,6 +62,9 @@ Aqui estão alguns projetos que desenvolvemos para nossos clientes:
 
 ## Equipe de Projetos
 
+- @coffeejpeg - Desenvolvedor Front-End & Designer Gráfico, Project Manager
+- @NunesArthu - Desenvolvedor Front-End
+- @JLBBARCO - Desenvolvedor Fullstack
 - [Gabriel Carvalho](https://github.com/coffeejpeg) - Desenvolvedor Front-End & Designer Gráfico, Project Maneger
 - [Arthur Nunes](https://github.com/NunesArthu) - Desenvolvedor Front-End
 - [José Barco](https://github.com/JLBBARCO) - Desenvolvedor Fullstack
